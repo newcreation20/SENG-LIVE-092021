@@ -1,18 +1,24 @@
+// console.log("Some message");
 
+// let x = 5;
+
+// let y = 10;
+
+// console.log(x)
 
 // -------------------------------------------
 
-console.log("Check Your Answers Here!");
+// console.log("Check Your Answers Here!");
 
 // 🚧 Break Out Activity 1: Using let vs. const
 
 // Properly declare "x" using "const"
 
-    const x;
+    // const x;
 
     const x = 5;
 
-    const x;
+    // const x;
 
     console.log(`Success! x = ${x}`);
 
@@ -22,44 +28,44 @@ console.log("Check Your Answers Here!");
 
     // let y;
 
-    // let y = 5; 
+    let y = 5; 
 
     // let y;
 
-    // console.log(`Success! y = ${y}`);
+    console.log(`Success! y = ${y}`);
 
 // Refactor the code below to get a successful response in console
 
     // 🚨 Uncomment the code below to continue:
 
-    // const a = 2;
+    const a = 2;
     
     // a = 2;
     
     // let b;
     
-    // let b = 4
+    let b = 4
     
-    // console.log(`Success! ${a} + ${a} = ${b}`);
+    console.log(`Success! ${a} + ${a} = ${b}`);
 
 // 🚧 Break Out Activity 2: Using if...else
 
     // 🚨 Uncomment the code below to continue:
 
     // 🚧 Set a value for "time" between 0 and 24
-    // let time;
+    let time = 10;
 
     // 💡 If "time" is less than or equal to 12...
-    // if (❓) {
+    if (time <= 12) {
 
-        // console.log(`${time} is in the AM.`)
+        console.log(`${time} is in the AM.`)
 
     // 💡 In all other cases...
-    // } else {
+    } else {
 
-        // console.log(`${time} is in the PM.`)
+        console.log(`${time} is in the PM.`)
 
-    // }
+    }
 
     // ✨ BONUS: Try refactoring the above expression using a ternary operator.
 
